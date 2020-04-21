@@ -11,7 +11,7 @@ In this lab, you'll practice building nested forms in Sinatra for creating teams
 1. Create a route that responds to a GET request at `/`.
 2. Create a view with a form and render it in the GET `/` route.
 3. The form should have fields for the `name` of a superhero team and their `motto`.
-4. There should be form inputs for each of the three superhero member's `name`, `power`, and `bio`.
+4. There should be form inputs for each of the three superhero members' `name`, `power`, and `bio`.
 
 It should look something like this:
 
@@ -36,7 +36,7 @@ If you wanted to access the first superhero's name, you would enter:
 params["team"]["members"][0]["name"]
 ```
 
-When you post to this form you should render a page that displays the name of the team and each member of the team, along with their name, super power and bio.
+When you post to this form you should render a page that displays the name of the team and each member of the team, including their name, super power and bio.
 
 Your view should display something like this:
 
@@ -44,7 +44,7 @@ Your view should display something like this:
 
 ## Deliverables
 
-Pass the tests! You'll notice in `super_sinatra_spec.rb` in the`it submits the form` test for `'POST /teams'`, we use the Capybara method `fill_in`:
+Pass the tests! You'll notice in `super_sinatra_spec.rb` in the `it submits the form` test for `'POST /teams'`, we use the Capybara method `fill_in`:
 
 ```ruby
 fill_in("member1_name", :with => "Amanda")
