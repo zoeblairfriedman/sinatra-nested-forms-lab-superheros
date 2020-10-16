@@ -65,5 +65,3 @@ The same pattern follows for the second and third superheroes. The word in quote
 * [Ashley William's GitHub](https://github.com/ashleygwilliams/) - [Sinatra Form Party](https://github.com/ashleygwilliams/sinatra-form-party)
 
 * [Ashley William's GitHub](https://github.com/ashleygwilliams/) - [Citibike Sinatra](https://github.com/ashleygwilliams/citibike-sinatra)
-
-<p data-visibility='hidden'>View <a href='https://learn.co/lessons/sinatra-nested-forms-lab-superheros'>Sinatra Nested Forms Lab: Superheroes!</a> on Learn.co and start learning to code for free.</p>
